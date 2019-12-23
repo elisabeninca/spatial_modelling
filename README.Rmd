@@ -195,7 +195,7 @@ points.mat <- do.call(what = "rbind", args = points.list)
 plot(points.mat, pch = ".") 
 ```
 
-## Spatial SIR transmission model with the Sellke construction`
+## Spatial SIR transmission model with the Sellke construction
 
 The model simulates infections spread between immobile hosts (e.g. poultry farms) using the Sellke construction.
 The model assumes only culling of the detected farms (i.e. no preventive culling)
