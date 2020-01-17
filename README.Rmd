@@ -343,7 +343,7 @@ I first call the R file where I initialize the variables ("InitSim.R")
 Then I call the file that calls in a loop the function Event() defined above ("SimLoop.R")
 
 ```{r, message=FALSE, warning=FALSE}
-########## start the simulation ######################################
+########## start the simulation #################################
 #ptm <- proc.time()
 K<-100  # define the first infected
 T_inf <- T_inf_matrix[K,]   # rgamma(totpoints,10, scale=7/10) # mean=7, std=2
