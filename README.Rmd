@@ -354,7 +354,7 @@ Q_init <- Q_init_matrix[K,] # rexp(totpoints, rate = 1) # these are the threshol
 source("InitSim.R") # initialization and setting of the first infected
 while(nrow(Queue)!=0){
 source("SimLoop.R") # This is the main loop of the SIR spatial model
-#####################################################################
+###################################################################
 }
 ```
 
